@@ -1,4 +1,8 @@
-import java.util.*;
+package com.tgt.igniteplus;
+
+import java.util.LinkedHashMap;
+import java.util.Scanner;
+
 /*
 Q. Subarray Sum Equals K
 Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
@@ -26,8 +30,15 @@ class Solution {
         return count;
     }
     public static void main(String[] args){
-        int[] num=new int[3];
-        num[0]=1; num[1]=1;    num[2]=1;
+        Scanner in=new Scanner(System.in);
+
+        int n,k;
+        n=in.nextInt();
+        k=in.nextInt();
+        int[] num=new int[n];
+        for (int i = 0; i <n ; i++) {
+            num[i]=in.nextInt();
+        }
         System.out.println(subarraySum(num,2));
 
     }
