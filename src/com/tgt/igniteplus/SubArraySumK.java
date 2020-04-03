@@ -7,7 +7,7 @@ import java.util.Scanner;
 Q. Subarray Sum Equals K
 Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
  */
-class Solution {
+class SubArraySumK {
     /*
     for i:1 to n
         sum+=nums(i)

@@ -26,7 +26,7 @@ import java.util.*;
 
 public class MultipleOf3 {
 
-        public static String largestMultipleOfThree(int[] digits) {
+        public static String calcLargestMultipleOfThree(int[] digits) {
         //if all elements are zeros return "0"
             int zeros=0;
             for (int i = 0; i <digits.length ; i++) {
@@ -127,7 +127,7 @@ public class MultipleOf3 {
                 num[i]=in.nextInt();
             }
 
-            System.out.println(largestMultipleOfThree(num));
+            System.out.println(calcLargestMultipleOfThree(num));
 
         }
 
