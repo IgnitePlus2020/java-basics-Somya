@@ -10,13 +10,13 @@ public class IsNumber {
 
 
        for ( i = 0; i <str.length() ; i++) {
-           if((char) str.charAt(i)>'0' && (char) str.charAt(i)<'9') continue;
-           else return false;
+           if(str.charAt(i) >'0' && (char) str.charAt(i)<'9') ;
+            else return false;
        }
        return true;
     }
     public static void main(String[] args){
-        String str="";
+        String str;
 
         Scanner in=new Scanner((System.in));
         str=in.next();
