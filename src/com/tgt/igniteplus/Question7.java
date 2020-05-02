@@ -18,7 +18,7 @@ public class Question7 {
         int len=0;
         for (int i = 0; i <s.length ; i++) {
 
-            if (s[i]=='-' && Character.isDigit(s[i-1]) && Character.isDigit(s[i+1]) ) continue;
+            if (s[i]=='-' && i>0 && Character.isDigit(s[i-1]) && Character.isDigit(s[i+1]) ) continue;
             resultStr[len++]=s[i];
         }
 

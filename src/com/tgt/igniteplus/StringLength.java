@@ -6,14 +6,7 @@ import java.util.Scanner;
 
 public class StringLength {
     static int findStringLength(String s) {
-        int stringLength=0;
-
-        char[] charArray=s.toCharArray();
-        for (char c:charArray
-             ) {
-            stringLength++;
-        }
-        return stringLength;
+        return  s.length();
     }
 
     public static void main(String[] args){
